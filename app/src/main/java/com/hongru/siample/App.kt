@@ -41,7 +41,7 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         AnalysisControl.applyApplication(this)
-                .applyAppKey("5b0d87eef29d984463000444")
+                .applyAppKey(BuildConfig.UM_APPKEY)
                 .applyChannel("default")
                 .applyBuildingType(true)
                 .applyCatchErrorEnable(true)
